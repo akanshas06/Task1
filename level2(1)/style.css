@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.details h2 {
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.details p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+footer p {
+    margin: 5px 0;
+}

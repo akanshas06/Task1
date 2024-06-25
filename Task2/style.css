@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.asset {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.asset-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.asset-description {
+    display: none;
+    margin-top: 10px;
+}
+
+.asset-description.expanded {
+    display: block;
+}
+
+.arrow {
+    transition: transform 0.3s;
+}
+
+.arrow.expanded {
+    transform: rotate(90deg);
+}

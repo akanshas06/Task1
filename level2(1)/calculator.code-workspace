@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../calculator"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "level2(1)"
+	}
+}
